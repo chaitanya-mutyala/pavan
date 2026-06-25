@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://pavankunapareddy.com/sitemap.xml",
+    sitemap: "https://pavankunapareddy.qzz.io/sitemap.xml",
   };
 }
