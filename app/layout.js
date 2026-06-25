@@ -13,10 +13,17 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://pavankunapareddy.qd.je"),
+  metadataBase: new URL("https://pavankunapareddy.qzz.io"),
+
   title: "Pavan Kunapareddy — Digital Marketing Consultant & Regional Influencer",
+
   description:
     "Helping businesses turn attention into customers through content, SEO, paid advertising, influencer marketing, and social media strategy. Founder of Konaseema Digital Marketing.",
+
+  verification: {
+    google: "N-D9Yd0cSyOr6kwFsReeAMIYgj0Nt9jOE-vaRHe5Uyg",
+  },
+
   keywords: [
     "digital marketing consultant",
     "social media marketing",
@@ -30,13 +37,15 @@ export const metadata = {
     "brand growth",
     "regional influencer",
   ],
+
   authors: [{ name: "Pavan Kunapareddy" }],
   creator: "Pavan Kunapareddy",
+
   openGraph: {
     title: "Pavan Kunapareddy — Digital Marketing Consultant & Regional Influencer",
     description:
-      "Helping businesses turn attention into customers. SEO, Ads, Content, and Influencer Marketing.",
-    url: "https://pavankunapareddy.qd.je",
+      "Helping businesses turn attention into customers through SEO, Ads, Content, and Influencer Marketing.",
+    url: "https://pavankunapareddy.qzz.io",
     siteName: "Pavan Kunapareddy",
     images: [
       {
@@ -49,6 +58,7 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Pavan Kunapareddy — Digital Marketing Consultant",
@@ -56,6 +66,7 @@ export const metadata = {
       "Helping businesses turn attention into customers through digital marketing.",
     images: ["/images/hero.jpg"],
   },
+
   robots: {
     index: true,
     follow: true,
